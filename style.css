@@ -2,3 +2,59 @@ html{
     margin: 0px;
     background-color: gray;
 }
+.container{
+   
+}
+header{
+    font-size: 4em;
+    margin: 2%;
+}
+.gameBoard{
+    background-color: silver;
+    display: grid;
+    grid-template-columns: repeat(3, 210px);
+    grid-template-rows: repeat(3, 210px);
+    justify-content: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+}
+
+
+
+
+
+
+
+/* ---credits---- */
+.copyrights{
+    align-items: center;
+    justify-content: center;
+    display: flex;  
+    position: fixed;
+    color: #BCC7CD;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.copyrights > div {
+    
+    margin: 5px;
+    font-size: 15px;
+    
+}
+.githubicon {
+    transition: transform .25s; /* Animation */
+    margin: 0 auto;
+  }
+  
+  .githubicon:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+footer{
+    grid-column-start: 1;
+    grid-column-end:3;
+    background-color: #495C83;
+}
