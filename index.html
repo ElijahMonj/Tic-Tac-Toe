@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;500;600;700&family=Cairo:wght@200;300;400&family=Ibarra+Real+Nova&family=Nunito:wght@200;400&family=Roboto+Mono&family=Secular+One&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
@@ -11,17 +14,29 @@
 <body>
     <div class="container">
         <center>
-        <header>Tic-Tac-Toe</header>
+        <header>Love is...Tic-Tac-Toe!?</header>
+        <p id="versus">Miyuki vs. Kaguya</p>
+
         <div class="gameBoard">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
+            <div class="box" id="box5"></div>
+            <div class="box" id="box6"></div>
+            <div class="box" id="box7"></div>
+            <div class="box" id="box8"></div>
+            <div class="box" id="box9"></div>
+        </div>
+        <div class="markers">
+            <div class="name">    
+                <img src="p2.png" alt="" title="Miyuki's Marker">
+            </div>
+            <button onclick="toChange()">Restart Game</button>
+            <div class="name">
+                
+                <img src="p1.png" alt="" title="Kaguya's Marker">
+            </div>
         </div>
         </center>
         <footer class="copyrights">

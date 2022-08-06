@@ -1,28 +1,106 @@
-html{
-    margin: 0px;
-    background-color: gray;
+body,html{
+    height: 100%;
+    margin: 0;
+font-family: 'Advent Pro', sans-serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Ibarra Real Nova', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Secular One', sans-serif;
+
+
+
 }
-.container{
-   
+ body{
+    /* The image used */
+    background-image: url("bg.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #E8E8E8;
+  }
+p{
+    margin-bottom: 2%;
+    margin-top: 0;
+    font-size: 1.5em;
 }
 header{
     font-size: 4em;
-    margin: 2%;
+    padding-top: 10px;
 }
 .gameBoard{
-    background-color: silver;
+
     display: grid;
-    grid-template-columns: repeat(3, 210px);
-    grid-template-rows: repeat(3, 210px);
+    grid-template-columns: repeat(3, 190px);
+    grid-template-rows: repeat(3, 190px);
     justify-content: center;
 }
 .box{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-style: solid;
+    border-radius: 10px;
+    border-color: #E8E8E8;
+    background-color: #222831;
+    font-size: 0.000000000000001em;
+    text-align: center;
+    line-height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:70%;  
+    color: rgba(0, 0, 0, 0.0);
+    cursor: pointer;
 }
+button{
+    font-family: 'Advent Pro', sans-serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Ibarra Real Nova', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Secular One', sans-serif;
+   margin:1%;
+padding: 10px 15px;
+font-size: 15px;
+    text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: #E8E8E8;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #30475E;
+  min-width: 150px;
+}
+button:hover {background-color: #FFA4A4}
 
-
+button:active {
+  background-color: #FF9090;
+  box-shadow: 0 5px #222831;
+  transform: translateY(4px);
+}
+.name img{
+    width:50px;
+    transition: transform .4s ease-in-out;
+    cursor: pointer;
+}
+.name img:hover{
+    transform: rotate(360deg)scale(1.5);
+     
+}
+.markers{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 80px 150px 80px;
+    grid-template-rows: 50px;
+    
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -56,5 +134,5 @@ header{
 footer{
     grid-column-start: 1;
     grid-column-end:3;
-    background-color: #495C83;
+    background-color: #222831;
 }
