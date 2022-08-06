@@ -1,6 +1,7 @@
 # Tic-Tac-Toe
-https://wallhere.com/en/wallpaper/1602275
+Credits to the background: https://wallhere.com/en/wallpaper/1602275
 
-https://www.pngrepo.com/svg/277692/knife-blood
+Credits to the knife icon: https://www.pngrepo.com/svg/277692/knife-blood
 
-https://www.pngrepo.com/svg/193190/gun
+Credits to the gun icon: https://www.pngrepo.com/svg/193190/gun
+I do not own the rights to any images in this project.
